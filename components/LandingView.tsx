@@ -49,9 +49,11 @@ const LandingView: React.FC<LandingViewProps> = ({ onStart }) => {
           }}
           className="group relative inline-flex items-center justify-center px-16 py-7 font-black text-white bg-blue-600 rounded-3xl overflow-hidden transition-all hover:bg-blue-500 hover:scale-105 active:scale-95 shadow-[0_0_50px_rgba(37,99,235,0.4)]"
         >
-          <span className="relative flex items-center gap-4 text-xl uppercase tracking-[0.1em]">
-            업무 시작하기
-            <i className="fa-solid fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
+          <span className="relative flex flex-col items-center gap-2 text-xl uppercase tracking-[0.1em] text-center">
+            <span className="text-2xl font-black text-blue-100">『 큰바구니 』</span>
+            <span className="flex items-center gap-3 opacity-90 text-lg">
+              스마트상점 신청하기
+            </span>
           </span>
         </button>
 

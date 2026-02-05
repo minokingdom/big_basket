@@ -16,8 +16,8 @@ export default defineConfig(({ mode }) => {
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', 'pwa-icon.png'],
         manifest: {
-          name: '신청도우미',
-          short_name: '신청도우미',
+          name: '큰바구니',
+          short_name: '큰바구니',
           description: '스마트상점 신청 지원 시스템',
           theme_color: '#000000',
           icons: [
